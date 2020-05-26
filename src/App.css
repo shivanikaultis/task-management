@@ -1,0 +1,27 @@
+.App {
+  width:70%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.list-container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin: 30px;
+  width: 20%;
+}
+.card-box{
+  border: 1px solid;
+  margin : 25px;
+}
+.move-state-indicator{
+  font-size: 12px;
+  padding:5px;
+  color: blue;
+  cursor: pointer;
+}
+.add-card {
+  color: blue;
+  cursor: pointer;
+}
